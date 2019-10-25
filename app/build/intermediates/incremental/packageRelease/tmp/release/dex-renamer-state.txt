@@ -1,0 +1,4 @@
+#Fri Oct 25 20:08:30 BST 2019
+base.0=/home/pranav/AndroidStudioProjects/AndroidBackdrop/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

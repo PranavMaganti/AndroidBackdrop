@@ -1,0 +1,231 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [:backdrop] /home/pranav/AndroidStudioProjects/AndroidBackdrop/backdrop/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta3] /home/pranav/.gradle/caches/transforms-2/files-2.1/29a7938f1e354f84b1d70b323b597e87/constraintlayout-2.0.0-beta3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/6fb7ded7712b989441fb51ce5e1b78fb/navigation-ui-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/7b90bfe9f0fe7e998a08eb2095a75d3e/navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.0-alpha01] /home/pranav/.gradle/caches/transforms-2/files-2.1/64224888951956d2218444e4472ec576/material-1.2.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/2524fd2d3b2f66b3ccf78e5c4a1904e6/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/217991f1af882ef6da9f86760e70bb33/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/66add9a0cb996278d8a114cc1c01ea4b/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/715a26b20f0b0b2c1c5da8e7a4e3798a/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/c8d35bb6ff442ed28f7634f317fc4cc5/jetified-fragment-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/5c2f7a5d807ace591dfc3c39abdf4706/jetified-activity-ktx-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b42ce626e0689adeb1d268a3b858880c/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d47a589503b190c07cc345a1e5feb8d2/navigation-common-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/22b023872735bedfbbf71c97d70a02d0/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/3275542104e5ca0118802a19cb1736ae/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta05] /home/pranav/.gradle/caches/transforms-2/files-2.1/51e6085a978f47adf1e659ef02f0c2bc/jetified-viewpager2-1.0.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/a2e65605c807e63eef332d00998a858a/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/039e4cc3139278fc274fab23d4ebdb9a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/07ef1e0a52180982e44668304d5ebafd/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f03f7cf8b2d25f866cab4719a02485e1/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b46473787baa285332d1f713da3658b9/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/8fa61e34c1480f2b7ba6c96568773c3d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/34c11ac642c631bbf63748ced137cc79/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/84f8308bb82a7c3650a58041d8a094c9/navigation-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/e1bc42c66de7e347679c2aaa5fba7589/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/6b4a05c26224f569d3fa60879032e758/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/e3118726bba00495b55837a9eb8ba5bc/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /home/pranav/.gradle/caches/transforms-2/files-2.1/e41c613a64686c13eb5819208ca1efa3/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta05] /home/pranav/.gradle/caches/transforms-2/files-2.1/6f2a11a469926abcd98279e2f31c8477/recyclerview-1.1.0-beta05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/89c2bcf6c52991cc54b0e0de7e44ea7f/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/6d74f0582834fd3d68d4b417ad44f2ca/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/9d954346d0348375c358b4707cfb26be/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/3d715d0172bb24882e4010988c44da96/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/60cfe55d8af66af1d63bcc5bfc666f44/navigation-common-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f5e4948f7aa693490330ba727dc3a3da/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/abb81f18614dea837f6dcf58dc2eb7a4/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f31f33c5b3f3a15616ee09612a2e7638/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/eb67e44ad5ad3a03c48c17791b378805/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/08d354c9cc9405ca3a100d873b72fef9/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/c529c41051cbab4a06bc85e46d7c316d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d94e572bc104eacebf2a96b86a99aea8/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/4e15dba0e156c6fe3951a5f47d595121/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/70aa4bfdb971e5a96d1178ff34b8d395/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/11383faeae88c008946ff1adb06e80f5/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/1f1fcd06fd3960a10a66fa9785ca1dab/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/0e95b46bfa59545156be68bbbd468901/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/1a2e59cc144edd50d7b80ebe8205bdf7/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f3ae23364a4c36f1a65ff3d74dea9647/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/a3056c664574ba1717e728d4f0ca0da0/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/a017d8e1b9a28277af1a6bb286e041da/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:5:5-22:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta3] /home/pranav/.gradle/caches/transforms-2/files-2.1/29a7938f1e354f84b1d70b323b597e87/constraintlayout-2.0.0-beta3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta3] /home/pranav/.gradle/caches/transforms-2/files-2.1/29a7938f1e354f84b1d70b323b597e87/constraintlayout-2.0.0-beta3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.2.0-alpha01] /home/pranav/.gradle/caches/transforms-2/files-2.1/64224888951956d2218444e4472ec576/material-1.2.0-alpha01/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0-alpha01] /home/pranav/.gradle/caches/transforms-2/files-2.1/64224888951956d2218444e4472ec576/material-1.2.0-alpha01/AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f31f33c5b3f3a15616ee09612a2e7638/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f31f33c5b3f3a15616ee09612a2e7638/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/08d354c9cc9405ca3a100d873b72fef9/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/08d354c9cc9405ca3a100d873b72fef9/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f31f33c5b3f3a15616ee09612a2e7638/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.vanpra.androidbackdrop.MainActivity
+ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:16:27-74
+meta-data#preloaded_fonts
+ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:19:9-21:57
+	android:resource
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:21:13-54
+	android:name
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml:20:13-43
+uses-sdk
+INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+MERGED from [:backdrop] /home/pranav/AndroidStudioProjects/AndroidBackdrop/backdrop/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:backdrop] /home/pranav/AndroidStudioProjects/AndroidBackdrop/backdrop/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta3] /home/pranav/.gradle/caches/transforms-2/files-2.1/29a7938f1e354f84b1d70b323b597e87/constraintlayout-2.0.0-beta3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta3] /home/pranav/.gradle/caches/transforms-2/files-2.1/29a7938f1e354f84b1d70b323b597e87/constraintlayout-2.0.0-beta3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/6fb7ded7712b989441fb51ce5e1b78fb/navigation-ui-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/6fb7ded7712b989441fb51ce5e1b78fb/navigation-ui-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/7b90bfe9f0fe7e998a08eb2095a75d3e/navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/7b90bfe9f0fe7e998a08eb2095a75d3e/navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.2.0-alpha01] /home/pranav/.gradle/caches/transforms-2/files-2.1/64224888951956d2218444e4472ec576/material-1.2.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0-alpha01] /home/pranav/.gradle/caches/transforms-2/files-2.1/64224888951956d2218444e4472ec576/material-1.2.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/2524fd2d3b2f66b3ccf78e5c4a1904e6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/2524fd2d3b2f66b3ccf78e5c4a1904e6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/217991f1af882ef6da9f86760e70bb33/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/217991f1af882ef6da9f86760e70bb33/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/66add9a0cb996278d8a114cc1c01ea4b/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/66add9a0cb996278d8a114cc1c01ea4b/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/715a26b20f0b0b2c1c5da8e7a4e3798a/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/715a26b20f0b0b2c1c5da8e7a4e3798a/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/c8d35bb6ff442ed28f7634f317fc4cc5/jetified-fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/c8d35bb6ff442ed28f7634f317fc4cc5/jetified-fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/5c2f7a5d807ace591dfc3c39abdf4706/jetified-activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/5c2f7a5d807ace591dfc3c39abdf4706/jetified-activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b42ce626e0689adeb1d268a3b858880c/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b42ce626e0689adeb1d268a3b858880c/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d47a589503b190c07cc345a1e5feb8d2/navigation-common-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d47a589503b190c07cc345a1e5feb8d2/navigation-common-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/22b023872735bedfbbf71c97d70a02d0/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/22b023872735bedfbbf71c97d70a02d0/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/3275542104e5ca0118802a19cb1736ae/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/3275542104e5ca0118802a19cb1736ae/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta05] /home/pranav/.gradle/caches/transforms-2/files-2.1/51e6085a978f47adf1e659ef02f0c2bc/jetified-viewpager2-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta05] /home/pranav/.gradle/caches/transforms-2/files-2.1/51e6085a978f47adf1e659ef02f0c2bc/jetified-viewpager2-1.0.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/a2e65605c807e63eef332d00998a858a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/a2e65605c807e63eef332d00998a858a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/039e4cc3139278fc274fab23d4ebdb9a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/039e4cc3139278fc274fab23d4ebdb9a/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/07ef1e0a52180982e44668304d5ebafd/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/07ef1e0a52180982e44668304d5ebafd/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f03f7cf8b2d25f866cab4719a02485e1/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f03f7cf8b2d25f866cab4719a02485e1/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b46473787baa285332d1f713da3658b9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/b46473787baa285332d1f713da3658b9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/8fa61e34c1480f2b7ba6c96568773c3d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/8fa61e34c1480f2b7ba6c96568773c3d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/34c11ac642c631bbf63748ced137cc79/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/34c11ac642c631bbf63748ced137cc79/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/84f8308bb82a7c3650a58041d8a094c9/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/84f8308bb82a7c3650a58041d8a094c9/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/e1bc42c66de7e347679c2aaa5fba7589/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/e1bc42c66de7e347679c2aaa5fba7589/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/6b4a05c26224f569d3fa60879032e758/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/6b4a05c26224f569d3fa60879032e758/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/e3118726bba00495b55837a9eb8ba5bc/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/e3118726bba00495b55837a9eb8ba5bc/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /home/pranav/.gradle/caches/transforms-2/files-2.1/e41c613a64686c13eb5819208ca1efa3/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /home/pranav/.gradle/caches/transforms-2/files-2.1/e41c613a64686c13eb5819208ca1efa3/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta05] /home/pranav/.gradle/caches/transforms-2/files-2.1/6f2a11a469926abcd98279e2f31c8477/recyclerview-1.1.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta05] /home/pranav/.gradle/caches/transforms-2/files-2.1/6f2a11a469926abcd98279e2f31c8477/recyclerview-1.1.0-beta05/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/89c2bcf6c52991cc54b0e0de7e44ea7f/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/89c2bcf6c52991cc54b0e0de7e44ea7f/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/6d74f0582834fd3d68d4b417ad44f2ca/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/6d74f0582834fd3d68d4b417ad44f2ca/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/9d954346d0348375c358b4707cfb26be/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/9d954346d0348375c358b4707cfb26be/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/3d715d0172bb24882e4010988c44da96/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/3d715d0172bb24882e4010988c44da96/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/60cfe55d8af66af1d63bcc5bfc666f44/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/60cfe55d8af66af1d63bcc5bfc666f44/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f5e4948f7aa693490330ba727dc3a3da/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f5e4948f7aa693490330ba727dc3a3da/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/abb81f18614dea837f6dcf58dc2eb7a4/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/abb81f18614dea837f6dcf58dc2eb7a4/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f31f33c5b3f3a15616ee09612a2e7638/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f31f33c5b3f3a15616ee09612a2e7638/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/eb67e44ad5ad3a03c48c17791b378805/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/eb67e44ad5ad3a03c48c17791b378805/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/08d354c9cc9405ca3a100d873b72fef9/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/08d354c9cc9405ca3a100d873b72fef9/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/c529c41051cbab4a06bc85e46d7c316d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/c529c41051cbab4a06bc85e46d7c316d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d94e572bc104eacebf2a96b86a99aea8/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/d94e572bc104eacebf2a96b86a99aea8/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/4e15dba0e156c6fe3951a5f47d595121/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/4e15dba0e156c6fe3951a5f47d595121/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/70aa4bfdb971e5a96d1178ff34b8d395/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/70aa4bfdb971e5a96d1178ff34b8d395/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/11383faeae88c008946ff1adb06e80f5/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/11383faeae88c008946ff1adb06e80f5/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/1f1fcd06fd3960a10a66fa9785ca1dab/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/1f1fcd06fd3960a10a66fa9785ca1dab/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/0e95b46bfa59545156be68bbbd468901/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/0e95b46bfa59545156be68bbbd468901/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/1a2e59cc144edd50d7b80ebe8205bdf7/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/1a2e59cc144edd50d7b80ebe8205bdf7/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f3ae23364a4c36f1a65ff3d74dea9647/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/f3ae23364a4c36f1a65ff3d74dea9647/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/a3056c664574ba1717e728d4f0ca0da0/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/a3056c664574ba1717e728d4f0ca0da0/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/a017d8e1b9a28277af1a6bb286e041da/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/pranav/.gradle/caches/transforms-2/files-2.1/a017d8e1b9a28277af1a6bb286e041da/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+		ADDED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pranav/AndroidStudioProjects/AndroidBackdrop/app/src/main/AndroidManifest.xml

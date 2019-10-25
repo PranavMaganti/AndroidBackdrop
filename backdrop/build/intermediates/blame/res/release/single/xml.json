@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/AndroidBackdrop/backdrop/build/intermediates/res/merged/release/xml/standalone_badge_gravity_bottom_end.xml",
+        "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/64224888951956d2218444e4472ec576/material-1.2.0-alpha01/res/xml/standalone_badge_gravity_bottom_end.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/AndroidBackdrop/backdrop/build/intermediates/res/merged/release/xml/standalone_badge.xml",
+        "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/64224888951956d2218444e4472ec576/material-1.2.0-alpha01/res/xml/standalone_badge.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/AndroidBackdrop/backdrop/build/intermediates/res/merged/release/xml/standalone_badge_gravity_top_start.xml",
+        "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/64224888951956d2218444e4472ec576/material-1.2.0-alpha01/res/xml/standalone_badge_gravity_top_start.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/AndroidBackdrop/backdrop/build/intermediates/res/merged/release/xml/standalone_badge_offset.xml",
+        "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/64224888951956d2218444e4472ec576/material-1.2.0-alpha01/res/xml/standalone_badge_offset.xml"
+    },
+    {
+        "merged": "/home/pranav/AndroidStudioProjects/AndroidBackdrop/backdrop/build/intermediates/res/merged/release/xml/standalone_badge_gravity_bottom_start.xml",
+        "source": "/home/pranav/.gradle/caches/transforms-2/files-2.1/64224888951956d2218444e4472ec576/material-1.2.0-alpha01/res/xml/standalone_badge_gravity_bottom_start.xml"
+    }
+]

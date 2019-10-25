@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Backdrop</string>
+    <string name="material_music">Material Music</string>
+    <string name="menu">Menu</string>
+    <string name="button">Button</string>
+    <string name="artist">Artist</string>
+    <string name="home">Home</string>
+    <string name="song_name">Song name</string>
+</resources>

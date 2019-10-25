@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="button_spacing_margin">4dp</dimen>
+    <dimen name="title_margin">48dp</dimen>
+    <dimen name="button_side_margin">8dp</dimen>
+    <dimen name="ab_padding">56dp</dimen>
+    <dimen name="no_icon_margin">16dp</dimen>
+</resources>

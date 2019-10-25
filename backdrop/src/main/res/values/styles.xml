@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="Widget.Backdrop.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/backdrop_text_color</item>
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
+    <style name="Widget.Backdrop.Text" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/backdrop_text_color</item>
+    </style>
+
+    <style name="Widget.Backdrop.ImageButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:tint">@color/backdrop_text_color</item>
+    </style>
+
+</resources>
