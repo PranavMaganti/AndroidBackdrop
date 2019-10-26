@@ -18,7 +18,9 @@ import androidx.appcompat.view.menu.MenuBuilder
 import androidx.compose.Composable
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintSet
+import androidx.ui.core.dp
 import androidx.ui.core.setContent
+import androidx.ui.layout.Padding
 import androidx.ui.material.MaterialTheme
 import kotlinx.android.synthetic.main.backdrop_button_layout.view.*
 import kotlinx.android.synthetic.main.backdrop_layout.view.*
@@ -43,6 +45,7 @@ class Backdrop @JvmOverloads constructor(
     var title = ""
         set(value) {
             field = value
+            front_title.visibility = View.VISIBLE
             front_title.text = value
         }
 
@@ -229,7 +232,9 @@ class Backdrop @JvmOverloads constructor(
     fun setFrontViewComposable(content: @Composable() () -> Unit) {
         (front_view as ViewGroup).setContent {
             MaterialTheme {
-                content()
+                Padding(top=44.dp) {
+                    content()
+                }
             }
 
         }

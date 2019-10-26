@@ -33,11 +33,11 @@ class MainActivity : AppCompatActivity() {
             title = "Home"
             /*
             setFrontViewComposable {
-                Padding(16.dp) {
+                Padding(left = 16.dp, right=16.dp) {
                     Column {
                         Text(
                             context.getString(R.string.welcome_text),
-                            style = TextStyle(fontSize = 16.sp),
+                            style = TextStyle(fontSize = 18.sp),
                             paragraphStyle = ParagraphStyle(TextAlign.Center)
                         )
                         HeightSpacer(16.dp)
@@ -56,7 +56,9 @@ class MainActivity : AppCompatActivity() {
                 }
 
             }
-            */
+
+             */
+
             setFrontView(R.layout.button_layout)
             val btn = frontView.findViewById<Button>(R.id.test_button)
             btn.setOnClickListener {

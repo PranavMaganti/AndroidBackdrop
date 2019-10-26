@@ -23,6 +23,14 @@ android {
         }
     }
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
     tasks.withType(Javadoc).all { enabled = false }
 }
 
@@ -41,3 +49,31 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta3'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }
+
+ext {
+    bintrayRepo = 'android'
+    bintrayName = 'com.vanpra.backdrop'
+
+    publishedGroupId = 'com.vanpra.backdrop'
+    libraryName = 'MaterialBackdrop'
+    artifact = 'backdrop'
+
+    libraryDescription = 'A Kotlin library for implementation of the Material Backdrop Component'
+
+    siteUrl = 'https://github.com/vanpra/AndroidBackdrop'
+    gitUrl = 'https://github.com/vanpra/AndroidBackdrop.git'
+
+    libraryVersion = '0.1.2-beta01'
+
+    developerId = 'vanpra'
+    developerName = 'Pranav Maganti'
+    developerEmail = 'pranav.maganti@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+
+apply from: 'https://raw.githubusercontent.com/brightec/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/brightec/JCenter/master/bintrayv1.gradle'
