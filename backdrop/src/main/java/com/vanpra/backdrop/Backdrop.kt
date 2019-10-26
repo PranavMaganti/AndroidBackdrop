@@ -20,6 +20,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintSet
 import androidx.ui.core.setContent
 import androidx.ui.material.MaterialTheme
+import kotlinx.android.synthetic.main.backdrop_button_layout.view.*
 import kotlinx.android.synthetic.main.backdrop_layout.view.*
 import kotlin.properties.Delegates
 
@@ -38,6 +39,12 @@ class Backdrop @JvmOverloads constructor(
     private var backViewSet = false
     var buttonGroup by Delegates.notNull<BackdropButtonGroup>()
     private var buttonGroupSet = false
+
+    var title = ""
+        set(value) {
+            field = value
+            front_title.text = value
+        }
 
     private val animatorSet = AnimatorSet()
     private var backdropShown = false

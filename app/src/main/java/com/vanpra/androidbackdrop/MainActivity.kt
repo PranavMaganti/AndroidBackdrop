@@ -3,6 +3,7 @@ package com.vanpra.androidbackdrop
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.Composable
@@ -29,12 +30,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         backdrop.apply {
+            title = "Home"
             /*
             setFrontViewComposable {
                 Padding(16.dp) {
                     Column {
                         Text(
-                            context.getString(R.string.wecome_text),
+                            context.getString(R.string.welcome_text),
                             style = TextStyle(fontSize = 16.sp),
                             paragraphStyle = ParagraphStyle(TextAlign.Center)
                         )
@@ -56,13 +58,19 @@ class MainActivity : AppCompatActivity() {
             }
             */
             setFrontView(R.layout.button_layout)
+            val btn = frontView.findViewById<Button>(R.id.test_button)
+            btn.setOnClickListener {
+                Snackbar.make(backdrop,"Hello World", Snackbar.LENGTH_SHORT)
+                    .setAction("Dismiss"){}.show()
+            }
+
             val buttonGroup = backView.findViewById<BackdropButtonGroup>(R.id.button_group)
 
             buttonGroup.addButton("Home", ContextCompat.getDrawable(context, R.drawable.home))
             buttonGroup.addButton("Artist", ContextCompat.getDrawable(context, R.drawable.artist))
             buttonGroup.setMenuItemClickListener {
                 toggleBackdrop()
-                Log.d("STRING", it)
+                title = it
             }
         }
         
