@@ -1,29 +1,60 @@
 package com.vanpra.androidbackdrop
 
-import android.animation.AnimatorSet
-import android.animation.ObjectAnimator
-import android.animation.TimeInterpolator
-import android.graphics.Color
-import android.graphics.Interpolator
-import android.graphics.drawable.AnimatedVectorDrawable
-import androidx.appcompat.app.AppCompatActivity
+import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.DisplayMetrics
 import android.util.Log
-import android.util.TypedValue
-import android.widget.Button
-import android.widget.EditText
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.Composable
+import androidx.compose.Model
 import androidx.core.content.ContextCompat
-import androidx.core.content.res.ResourcesCompat
-import androidx.core.graphics.ColorUtils
+import androidx.core.view.size
+import androidx.ui.core.*
+import androidx.ui.foundation.VerticalScroller
+import androidx.ui.layout.*
+import androidx.ui.material.*
+import androidx.ui.text.ParagraphStyle
+import androidx.ui.text.TextStyle
+import androidx.ui.text.style.TextAlign
+import androidx.ui.tooling.preview.Preview
+import com.google.android.material.snackbar.Snackbar
+import com.vanpra.androidbackdrop.R
 import com.vanpra.backdrop.BackdropButtonGroup
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+    @SuppressLint("ShowToast")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         backdrop.apply {
+            /*
+            setFrontViewComposable {
+                Padding(16.dp) {
+                    Column {
+                        Text(
+                            context.getString(R.string.wecome_text),
+                            style = TextStyle(fontSize = 16.sp),
+                            paragraphStyle = ParagraphStyle(TextAlign.Center)
+                        )
+                        HeightSpacer(16.dp)
+                        Align(Alignment.TopCenter) {
+                            Button("Welcome", onClick = {
+                                Snackbar.make(backdrop,"Hello World", Snackbar.LENGTH_SHORT)
+                                    .setAction("Dismiss") {
+
+                                    }.show()
+                            })
+                        }
+
+
+
+                    }
+                }
+
+            }
+            */
             setFrontView(R.layout.button_layout)
             val buttonGroup = backView.findViewById<BackdropButtonGroup>(R.id.button_group)
 
@@ -34,5 +65,6 @@ class MainActivity : AppCompatActivity() {
                 Log.d("STRING", it)
             }
         }
+        
     }
 }

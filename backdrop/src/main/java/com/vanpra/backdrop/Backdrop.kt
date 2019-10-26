@@ -12,10 +12,14 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.MenuInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.ScrollView
 import androidx.appcompat.view.menu.MenuBuilder
+import androidx.compose.Composable
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintSet
+import androidx.ui.core.setContent
+import androidx.ui.material.MaterialTheme
 import kotlinx.android.synthetic.main.backdrop_layout.view.*
 import kotlin.properties.Delegates
 
@@ -200,7 +204,6 @@ class Backdrop @JvmOverloads constructor(
     fun setFrontView(layoutId: Int) {
         val view = LayoutInflater.from(context)
             .inflate(layoutId, null)
-
         view.id = View.generateViewId()
         val set = ConstraintSet()
         set.clone(front_view)
@@ -215,6 +218,16 @@ class Backdrop @JvmOverloads constructor(
 
         frontView = view
     }
+
+    fun setFrontViewComposable(content: @Composable() () -> Unit) {
+        (front_view as ViewGroup).setContent {
+            MaterialTheme {
+                content()
+            }
+
+        }
+    }
+
 
     private fun resetScrollView() {
         scrollview.fullScroll(ScrollView.FOCUS_UP);

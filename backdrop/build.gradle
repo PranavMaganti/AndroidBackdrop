@@ -1,23 +1,6 @@
-apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-
-
-publish {
-
-    def groupProjectID = 'com.vanpra.androidbackdrop'
-    def artifactProjectID = 'backdrop'
-    def publishVersionID = '0.1.0'
-
-    userOrg = 'vanpra'
-    repoName = 'android-backdrop'
-    groupId = groupProjectID
-    artifactId = artifactProjectID
-    publishVersion = publishVersionID
-    desc = 'A Kotlin library for implementation of the material backdrop component'
-    website = 'https://github.com/anitaa1990/Optimize'
-}
 
 android {
     compileSdkVersion 29
@@ -40,6 +23,7 @@ android {
         }
     }
 
+    tasks.withType(Javadoc).all { enabled = false }
 }
 
 dependencies {
@@ -48,6 +32,9 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.ui:ui-layout:0.1.0-dev02'
+    implementation 'androidx.ui:ui-material:0.1.0-dev02'
+    implementation 'androidx.ui:ui-tooling:0.1.0-dev02'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
